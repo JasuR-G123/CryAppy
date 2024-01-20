@@ -1,0 +1,80 @@
+.backed {
+    background: rgba(1, 2, 37, 1);
+    padding: 160px 0px;
+}
+
+.backed__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backed__desc a {
+    color: rgba(21, 155, 232, 1);
+}
+
+.backed__desc-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 623px;
+    width: 100%;
+}
+
+.backed__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 80px 0px 40px 0px;
+}
+
+.backed__cards {
+    display: flex;
+    gap: 36px;
+}
+
+.backed__cards-card {
+    max-width: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.backed__cards-card-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 288px;
+    width: 100%;
+}
+
+.backed__cards-card-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.backed__cards-card-profile-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.backed__cards-card-profile-desc-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.backed__cards-card-profile-desc-small-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+}

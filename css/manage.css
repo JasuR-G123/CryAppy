@@ -1,0 +1,100 @@
+.manage {
+    background: rgba(1, 2, 37, 1);
+    padding: 108px 0px 32px 0;
+}
+
+.manage__leftSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 633.61px;
+    width: 100%;
+}
+
+.manage__desc {
+    display: flex;
+
+    flex-direction: column;
+    gap: 8px;
+}
+
+.manage__smallcards {
+    display: flex;
+    gap: 16px;
+
+    padding: 34px 0px 60px 0;
+}
+
+.manage__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.manage__rightSection {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.manage__desc-title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 456px;
+    width: 100%;
+}
+
+.manage__desc-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 617px;
+    width: 100%;
+}
+
+.manage__desc a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(21, 155, 232, 1);
+
+}
+
+.manage__smallcards-card {
+    max-width: 308.8px;
+    width: 100%;
+}
+
+.manage__smallcards-card-title {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.manage__smallcards-card-text {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.manage__btn {
+    position: relative;
+    cursor: pointer;
+    max-width: 164px;
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 100px;
+    border: none;
+    background: rgba(21, 155, 232, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.manage__btn img {
+    position: absolute;
+    top: -8px;
+    right: -33px;
+}

@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'LeagueSpartan-Regular', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    padding: 0 86px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    padding: 14px 43px;
+    margin: 0 auto;
+}
+
+.container-perfect {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.container-manage {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 0px 0px 86px;
+}
